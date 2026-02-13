@@ -1,0 +1,16 @@
+cat > .gitignore << 'EOF'
+# Environment variables (never commit these!)
+.env
+.env.local
+
+# Database dumps
+*.sql.gz
+*.dump
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+EOF
