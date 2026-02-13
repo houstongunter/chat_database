@@ -12,6 +12,3 @@ psql $DB_NAME < migrations/003_create_messages.sql
 
 echo "✅ Database setup complete!"
 echo "Connect with: psql $DB_NAME"
-
-# Make it executable
-chmod +x setup.sh
