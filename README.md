@@ -11,7 +11,7 @@ PostgreSQL database schema for a chat application with user authentication.
 ## Prerequisites
 
 - PostgreSQL installed ([Download](https://www.postgresql.org/download/))
-- macOS: `brew install postgresql@16`
+- if using macOS: `brew install postgresql@16`
 
 ## Setup
 
