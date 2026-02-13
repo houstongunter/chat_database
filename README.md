@@ -30,10 +30,10 @@ PostgreSQL database schema for a chat application with user authentication.
 
 If you prefer to run migrations manually:
 ```bash
-createdb chat_app
-psql chat_app < migrations/001_create_users.sql
-psql chat_app < migrations/002_create_chats.sql
-psql chat_app < migrations/003_create_messages.sql
+createdb storing_chats
+psql storing_chats < migrations/001_create_users.sql
+psql storing_chats < migrations/002_create_chats.sql
+psql storing_chats < migrations/003_create_messages.sql
 ```
 
 ## Schema Details
@@ -61,6 +61,6 @@ psql chat_app < migrations/003_create_messages.sql
 
 To start fresh:
 ```bash
-dropdb chat_app
+dropdb storing_chats
 ./setup.sh
 ```
