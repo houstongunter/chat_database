@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # Chat App Database
 
 PostgreSQL database schema for a chat application with user authentication.
@@ -65,4 +64,3 @@ To start fresh:
 dropdb chat_app
 ./setup.sh
 ```
-EOF

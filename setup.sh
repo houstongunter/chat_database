@@ -1,4 +1,3 @@
-cat > setup.sh << 'EOF'
 #!/bin/bash
 
 DB_NAME="storing_chats"
@@ -13,7 +12,6 @@ psql $DB_NAME < migrations/003_create_messages.sql
 
 echo "✅ Database setup complete!"
 echo "Connect with: psql $DB_NAME"
-EOF
 
 # Make it executable
 chmod +x setup.sh
