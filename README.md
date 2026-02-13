@@ -23,7 +23,7 @@ PostgreSQL database schema for a chat application with user authentication.
 
 3. Connect to the database:
 ```bash
-   psql chat_app
+   psql storing_chats
 ```
 
 ## Manual Setup
